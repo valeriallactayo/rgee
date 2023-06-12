@@ -1,8 +1,9 @@
 #' Interface to manage the Earth Engine Asset
 #'
-#' R functions to manage the Earth Engine Asset. The interface allows users
-#' to create and eliminate folders, move and copy assets, set and delete
-#' properties, handle access control lists, and manage and/or cancel tasks.
+#' R functions to manage the Earth Engine Asset. The interface allows users to
+#' perform operations such as including creating and deleting folders, moving
+#' and copying assets, setting and deleting properties, handling access control
+#' lists (ACLs), and managing and canceling tasks.
 #'
 #' @name ee_manage-tools
 #' @param path_asset Character. Name of the EE asset (Table, Image, Folder or
@@ -11,12 +12,12 @@
 #' 'ImageCollection').
 #' @param final_path Character. Output filename
 #' (e.g users/datacolecfbf/ic_moved)
-#' @param add_properties List. Set of parameters to established as a property
-#' of an EE object. See details.
+#' @param add_properties List. Set of parameters to establish as properties of
+#' an Earth Engine object. See details.
 #' @param del_properties Character. Names of properties to be deleted. See
 #' details.
-#' @param strict Character vector. If TRUE, the existence of the asset will be
-#' evaluated before performing the task.
+#' @param strict Character vector. If set to TRUE, the existence of the asset
+#' will be evaluated before performing the task.
 #' @param owner Character vector. Define owner user in the IAM Policy.
 #' @param editor Character vector. Define editor users in the IAM Policy.
 #' @param viewer Character vector. Define viewer users in the IAM Policy.

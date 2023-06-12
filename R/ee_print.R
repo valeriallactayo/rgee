@@ -1,8 +1,8 @@
 #' Print and return metadata about Spatial Earth Engine Objects
 #'
 #' Print and return metadata about Spatial Earth Engine Objects.
-#' \code{ee_print} can retrieve information about the number of images
-#' or features, number of bands or geometries, number of pixels, geotransform,
+#' \code{ee_print} can be used to obtain information such as the number of images
+#' or features, the number of bands or geometries, the number of pixels, geotransform,
 #' data type, properties, and object size.
 #'
 #' @param eeobject Earth Engine Object. Available for: Geometry, Feature,
